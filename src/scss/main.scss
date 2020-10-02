@@ -69,3 +69,26 @@ body {
     color: #F5E5E7;
   }
 }
+
+.level {
+  font-family: 'roboto', serif;
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  top: 26px;
+  right: 12px;
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+
+  &__circle {
+    margin: auto 0 auto 4px;
+    display: inline-block;
+    border: .5px solid white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 20px;
+    background-color: red;
+  }
+}
