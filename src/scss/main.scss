@@ -32,12 +32,14 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
   margin-top: 68px;
   position: relative;
 
   &__number {
     font-size: 112px;
     position: absolute;
+    font-family: "roboto", sans-serif;
   }
 }
 
