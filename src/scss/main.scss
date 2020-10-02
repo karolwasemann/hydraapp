@@ -21,12 +21,11 @@ body {
   font-family: "roboto", sans-serif;
   justify-content: center;
   text-align: center;
+  color: #FFFFFF;
+  margin: 14px 0 0 0;
+
 }
 
-.title {
-  margin-top: 60px;
-  color: #FFFFFF;
-}
 
 .glass {
   display: flex;
@@ -73,12 +72,14 @@ body {
 }
 
 .level {
+  margin-top: 60px;
+  margin-left: 160px;
   font-family: 'roboto', serif;
   box-sizing: border-box;
   display: flex;
-  position: absolute;
+  justify-content: center;
+  align-content: center;
   top: 26px;
-  right: 12px;
   line-height: 24px;
   font-size: 14px;
   color: white;
